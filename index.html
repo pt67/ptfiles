@@ -3,15 +3,14 @@
     <head>
 <title>ptfiles</title>
         <style>
-            #a{padding:5px; font-weight:bold; background:#333; color:#fff;}
+            h1{padding:5px; font-weight:bold; background:#333; color:#fff;}
         </style>
     </head>
 <body>
-    <h1 id="a"></h1>
     
 <script>
     function printIt(){
-     document.getElementById("a").innerHTML = "Hello world";   
+     document.write("<h1>Hello world</h1>");   
     }
     
    setInterval(printIt, 5000);
